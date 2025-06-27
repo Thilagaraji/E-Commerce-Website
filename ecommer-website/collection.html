@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nostra</title>
+    <!-- link javascript-->
+
+    <!--link css-->
+    <link rel="stylesheet" href="D:\Desktop\emc\javascript\ecommer-website\style.css">
+    <!--link font style-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+AU+VIC&family=Poppins&display=swap" rel="stylesheet">
+    <!--link font awesome cnd-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!--navbar-->
+    <nav class="navbar">
+        <h1>Nostra</h1>
+        <div class="navbar-links">
+            <p class="navelements-link"><a href="indiex.html">Home</a></p>
+            <p class="navelements-link"><a href="collection.html">Collection</a></p>
+            <p class="navelements-link"><a href="contacts.html">Contacts</a></p>
+        </div>
+        <div class="navbar-menu-toggle" onclick="showsnav()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+    <!--side navbar-->
+    <div class="side-navbar">
+        <p style=" text-align: right;
+" onclick="closesnav()"><i class="fa-solid fa-xmark"></i></p>
+        <div class=" side-navbar-links">
+            <p class=" side-navelements-link"><a href="indiex.html">Home</a></p>
+            <p class=" side-navelements-link"><a href="collection.html">Collection</a></p>
+            <p class="side-navelements-link"><a href="contacts.html">Contacts</a></p>
+        </div>
+    </div>
+    <!--product-->
+    <div class="product-section">
+        <form class="product-search">
+            <input type="text" id="search" placeholder="search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </form>
+        <div class="products" id="product">
+            <div class="product-box"> <img src="https://th.bing.com/th/id/OIP.ATQ8fNyjz56rez_7GHqtvQHaKL?w=186&h=256&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="">
+                <p> T shirt</p>
+            </div>
+            <div class="product-box"> <img src="https://th.bing.com/th/id/OIP.HkJrC8Ui8UBJgI7YoBlIqwHaLH?w=186&h=279&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="">
+                <p>girls white shirt</p>
+            </div>
+            <div class="product-box"> <img src="https://th.bing.com/th/id/OIP.Uzt9V4GC1aZ0_4WYNj3iPAHaLG?w=186&h=279&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="">
+                <p>mens white shirt</p>
+            </div>
+            <div class="product-box"> <img src="https://th.bing.com/th/id/OIP.0PtioWFP6hrRK2gDpVdoAAHaNO?w=186&h=332&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="">
+                <p> womens T shirt</p>
+            </div>
+            <div class="product-box"> <img src="https://th.bing.com/th/id/OIP.NLmfxOW-ep3FmNDk_ba4ZAHaJ4?w=186&h=248&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="">
+                <p>mens black shirt</p>
+            </div>
+            <div class="product-box"> <img src="https://th.bing.com/th/id/OIP.kPfaMI_vRUkhWrY6pcKSFAHaKQ?w=186&h=258&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="thi">
+                <p>womens black shirt</p>
+            </div>
+            <div class="product-box"> <img src="https://th.bing.com/th/id/OIP.wYwBcqfd_mxDTzzNbhn9AAHaJ2?w=186&h=248&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="thi">
+                <p>westen girls tops</p>
+            </div>
+            <div class="product-box"> <img src="https://th.bing.com/th/id/OIP.KwSAotWVai_Pij_nnoyT7QHaKt?w=186&h=270&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="thi">
+                <p>tradition women dress</p>
+            </div>
+            <div class="product-box"> <img src="https://th.bing.com/th/id/OIP.tGZx3whgEqwDdCZXyeu5NAHaJE?w=186&h=228&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="thi">
+                <p>blue jeans for mens</p>
+            </div>
+            <div class="product-box"> <img src="https://th.bing.com/th/id/OIP.6FUTRE_HKoXE-8KnwUecCAHaJ4?w=186&h=248&c=7&r=0&o=5&dpr=1.3&pid=1.7"alt="thi">
+                <p>black jeans for mens</p>
+            </div>
+            <div class="product-box"> <img src="https://th.bing.com/th/id/OIP.Q0l6tHP0usEH92oGAkaXwAHaHN?w=186&h=181&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="thi">
+                <p>kids western dress </p>
+            </div>
+            <div class="product-box"> <img src="https://th.bing.com/th/id/OIP.QDlUqOtp5Dyznaye6FJoOwHaLG?w=186&h=278&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="thi">
+                <p>tradition kids dress</p>
+            </div>
+        </div>
+    </div>
+    <!--footer-->
+    <div class="footer">
+        <h2>Nostra</h2>
+        <p>the standard chunk of losum used since the 1500s is reprodused below for those interest</p>
+        <div class="footer-box1">
+            <i class="fa-brands fa-instagram" style="color: #ffffff ;"></i>
+            <i class="fa-brands fa-youtube" style="color: #ffffff ;"></i>
+            <i class="fa-brands fa-facebook" style="color: #ffffff ;"></i>
+
+        </div>
+        <P>@2024 Nostra.com</P>
+    </div>
+    <script src="collection.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
